@@ -3,11 +3,37 @@ main{
   width: 100vw;
   background: #000;
   padding: 20px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
 }
 
-.box{
+/* .box{
   height: 300px;
   width: 300px;
   background:  white;
   border-radius: 20px;
+} */
+
+
+.container{
+  padding: 20px;
+  border: 3px solid whitesmoke;
+  border-radius: 20px;
+}
+.box{
+  height: 200px;
+  width: 200px;
+  border-radius: 20px;
+  margin: 20px;
+  background: linear-gradient(to right bottom, rgb(248,66,103),crimson);
+
+}
+
+.circle{
+  margin: 20px;
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+  background: linear-gradient(to right bottom, rgb(48, 186, 204),rgb(136, 170, 243));
 }
